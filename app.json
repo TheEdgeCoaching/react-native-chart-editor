@@ -3,7 +3,7 @@
     "name": "react-native-chart-editor",
     "slug": "react-native-chart-editor",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {

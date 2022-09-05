@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import * as ScreenOrientation from 'expo-screen-orientation';
+import GraphEditor from "./src/screens/GraphEditor";
 
 ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
 
@@ -8,8 +9,7 @@ ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <GraphEditor/>
     </View>
   );
 }
